@@ -1,6 +1,6 @@
 # What is the difference between a list and a dictionary?
 # Dictionaries differ from lists in that you can access items in a dictionary
-# by a key rather than a position. Duplicate keys are not allowed. Can have a default key.
+# by a key rather than a position. Duplicate keys are not allowed.
 # Lists are ordered. Dictionaries are key value pairs.
 # Build a script that utilizes at least one list and one dictionary.
 
@@ -48,7 +48,7 @@ def GradesList():
     #reverse
     gradesList.reverse()
     print('Reversed',gradesList)
-    #Get values by Positon - index, Slice
+    #Get values by Position - index, Slice
     print('By Index',gradesList[4])    
     print('By Slice',gradesList[5:8])
     print('Count 99:',gradesList.count(95))    
