@@ -4,7 +4,7 @@
 
 def insertionSort(alist):
    for index in range(1,len(alist)): #skip position 0. Move right and we assume a sorted sublist at 0
-     currentvalue = alist[index] #Get current value and position.
+     currentvalue = alist[index] #Get current value.
      position = index #Get current position.
      while position>0 and alist[position-1]>currentvalue: #if not at beginning and value to left is greater than current value
          alist[position]=alist[position-1]#put that value here
